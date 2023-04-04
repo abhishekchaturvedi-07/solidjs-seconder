@@ -42,8 +42,10 @@ You can deploy the `dist` folder to any static host provider (netlify, surge, no
 ## Commit 1 : Base Setup
 
 *1* Install PNPM -> `Fast, disk space efficient package manager` -> `npm install -g pnpm`
+
 *2* Install Degit -> `npm install -g degit`
     **degit makes copies of git repositories. When you run degit some-user/some-repo , it will find the latest commit on https://github.com/some-user/some-repo and download the associated tar file to ~/. degit/some-user/some-repo/commithash. tar. gz if it doesn't already exist locally.**
+    
 *3* Visit Solid.js -> `https://github.com/solidjs/templates` and install solidJs project as you want. In this project I am using TS.
     `# Typescript template`
     `$ npx degit solidjs/templates/ts my-solid-project`
