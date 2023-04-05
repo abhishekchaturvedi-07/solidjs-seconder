@@ -58,7 +58,7 @@ You can deploy the `dist` folder to any static host provider (netlify, surge, no
 
 
 
-    ## Commit 2 : 
+    ## Commit 2 : Add Index and App files
 
 *1* Remove all the js and css files under src
 
@@ -66,3 +66,37 @@ You can deploy the `dist` folder to any static host provider (netlify, surge, no
 
 *3* Add App.tsx to render the jsx from App
     
+
+    **************************************************************************************************************
+
+
+
+    ## Commit 3 : Tailwind install and run
+
+*1* Install Tailwind from : https://tailwindcss.com/docs/guides/solidjs
+
+*2* `npm install -D tailwindcss postcss autoprefixer`
+
+*3* `npx tailwindcss init -p`
+    
+*4* Add in tailwind  config file :
+    `module.exports = {`
+    `content: [`
+        `"./src/**/*.{js,jsx,ts,tsx}",`
+    `],`
+    `theme: {`
+        `extend: {},`
+    `},`
+    `plugins: [],`
+    `}`
+
+*5* Add index.css and paste the utilities which we  can use to style
+    `@tailwind base;`
+    `@tailwind components;`
+    `@tailwind utilities;`
+
+*6* Import index.css in index.tsx AND add tailwind pre-defined classes in elements and check if working fine!
+
+
+    **************************************************************************************************************
+
