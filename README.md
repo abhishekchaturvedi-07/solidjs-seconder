@@ -51,3 +51,18 @@ You can deploy the `dist` folder to any static host provider (netlify, surge, no
     `$ npx degit solidjs/templates/ts my-solid-project`
     `$ cd my-solid-project`
     `$ npm install # or pnpm install or yarn install`
+
+
+
+    **************************************************************************************************************
+
+
+
+    ## Commit 2 : 
+
+*1* Remove all the js and css files under src
+
+*2* Add index.tsx to render the jsx in html
+
+*3* Add App.tsx to render the jsx from App
+    
