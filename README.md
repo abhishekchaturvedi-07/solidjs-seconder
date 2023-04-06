@@ -108,3 +108,17 @@ You can deploy the `dist` folder to any static host provider (netlify, surge, no
 *2* Install Tailwind Forms `pnpm install -D @tailwindcss/forms`
 
 *3* Install solid icons `pnpm install solid-icons`
+
+
+**************************************************************************************************************
+
+
+ ## Commit 5 : Init Icons & Profile Menu
+
+*1* Added Imports Icons from sold icons 
+
+*2* Added Profile Pop up Menu
+
+
+**************************************************************************************************************
+

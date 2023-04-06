@@ -1,5 +1,11 @@
 import { Component } from "solid-js";
 
+import { CgProfile, CgMoreO } from "solid-icons/cg";
+import { IoNotificationsCircleOutline } from "solid-icons/io";
+import { RiMapCompassDiscoverLine } from "solid-icons/ri";
+import { AiOutlineHome } from "solid-icons/ai";
+import { FiMoreHorizontal } from "solid-icons/fi";
+
 const App: Component = () => {
   return (
     <div class="w-full h-full bg-gray-900 text-gray-100">
@@ -20,7 +26,7 @@ const App: Component = () => {
                       <a class="flex-it items-start flex-grow w-full" href="#">
                         <div class="p-3 flex-row justify-center items-center flex-it rounded-3xl hover:bg-gray-800 hover:rounded-3xl transition duration-200">
                           <div class="flex-it">
-                            {/* <AiOutlineHome size={24} /> */}
+                            <AiOutlineHome size={24} />
                           </div>
                           <div class="mx-4 text-2xl truncate xl:block hidden">
                             <span class="truncate">Home</span>
@@ -30,7 +36,7 @@ const App: Component = () => {
                       <a class="flex-it items-start flex-grow w-full" href="#">
                         <div class="p-3 flex-row justify-center items-center flex-it rounded-3xl hover:bg-gray-800 hover:rounded-3xl transition duration-200">
                           <div class="flex-it">
-                            {/* <CgProfile size={24} /> */}
+                            <CgProfile size={24} />
                           </div>
                           <div class="mx-4 text-2xl truncate xl:block hidden">
                             <span class="truncate">Profile</span>
@@ -40,7 +46,7 @@ const App: Component = () => {
                       <a class="flex-it items-start flex-grow w-full" href="#">
                         <div class="p-3 flex-row justify-center items-center flex-it rounded-3xl hover:bg-gray-800 hover:rounded-3xl transition duration-200">
                           <div class="flex-it">
-                            {/* <CgMoreO size={24} /> */}
+                            <CgMoreO size={24} />
                           </div>
                           <div class="mx-4 text-2xl truncate xl:block hidden">
                             <span class="truncate">More</span>
@@ -50,7 +56,7 @@ const App: Component = () => {
                       <a class="flex-it items-start flex-grow w-full" href="#">
                         <div class="p-3 flex-row justify-center items-center flex-it rounded-3xl hover:bg-gray-800 hover:rounded-3xl transition duration-200">
                           <div class="flex-it">
-                            {/* <IoNotificationsCircleOutline size={24} /> */}
+                            <IoNotificationsCircleOutline size={24} />
                           </div>
                           <div class="mx-4 text-2xl truncate xl:block hidden">
                             <span class="truncate">Notification</span>
@@ -60,7 +66,7 @@ const App: Component = () => {
                       <a class="flex-it items-start flex-grow w-full" href="#">
                         <div class="p-3 flex-row justify-center items-center flex-it rounded-3xl hover:bg-gray-800 hover:rounded-3xl transition duration-200">
                           <div class="flex-it">
-                            {/* <RiMapCompassDiscoverLine size={24} /> */}
+                            <RiMapCompassDiscoverLine size={24} />
                           </div>
                           <div class="mx-4 text-2xl truncate xl:block hidden">
                             <span class="truncate">Discover</span>
@@ -80,7 +86,24 @@ const App: Component = () => {
                 </div>
                 {/* PROFILE MENU */}
                 <div class="flex-it my-3 hover:cursor-pointer">
-                  {/* <UserSettingPopup /> */}
+                  {/* POPUP START*/}
+                  <div class="flex-it items-center flex-row p-3 rounded-3xl hover:bg-gray-800 hover:rounded-3xl transition duration-200 cursor-pointer">
+                    <div class="flex-it">
+                      <div class="w-10 h-10 overflow-visible">
+                        <img
+                          class="rounded-full"
+                          src="https://www.pinclipart.com/picdir/middle/133-1331433_free-user-avatar-icons-happy-flat-design-png.png"
+                        ></img>
+                      </div>
+                    </div>
+                    <div class="flex-it xl:flex hidden flex-grow flex-row justify-between items-center">
+                      <div class="flex-it mx-3 font-bold">Filip99</div>
+                      <div class="flex-it">
+                        <FiMoreHorizontal />
+                      </div>
+                    </div>
+                  </div>
+                  {/* POPUP END */}
                 </div>
               </div>
             </div>
