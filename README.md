@@ -122,3 +122,13 @@ You can deploy the `dist` folder to any static host provider (netlify, surge, no
 
 **************************************************************************************************************
 
+
+ ## Commit 6 : Base Layout Setup
+
+*1* Added Base layout HTML content
+
+*2* Added Icons for base layout
+
+
+**************************************************************************************************************
+
