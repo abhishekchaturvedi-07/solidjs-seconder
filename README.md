@@ -58,7 +58,7 @@ You can deploy the `dist` folder to any static host provider (netlify, surge, no
 
 
 
-    ## Commit 2 : Add Index and App files
+## Commit 2 : Add Index and App files
 
 *1* Remove all the js and css files under src
 
@@ -71,7 +71,7 @@ You can deploy the `dist` folder to any static host provider (netlify, surge, no
 
 
 
-    ## Commit 3 : Tailwind install and run
+## Commit 3 : Tailwind install and run
 
 *1* Install Tailwind from : https://tailwindcss.com/docs/guides/solidjs
 
@@ -100,3 +100,11 @@ You can deploy the `dist` folder to any static host provider (netlify, surge, no
 
     **************************************************************************************************************
 
+
+ ## Commit 4 : Layout Changes
+
+*1* New HTML & CSS Changes in App.tsx and index.css | Also modify the tailwind.config.css
+
+*2* Install Tailwind Forms `pnpm install -D @tailwindcss/forms`
+
+*3* Install solid icons `pnpm install solid-icons`
