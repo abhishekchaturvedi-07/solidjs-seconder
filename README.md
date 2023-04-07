@@ -132,3 +132,13 @@ You can deploy the `dist` folder to any static host provider (netlify, surge, no
 
 **************************************************************************************************************
 
+
+ ## Commit 7 : Seperate Sidebar Components
+
+*1* Create Component Folder - Sidebar
+
+*2* Added Main & Trends sidebar components inside Sidebar folder
+
+
+**************************************************************************************************************
+
