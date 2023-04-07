@@ -10,10 +10,19 @@ import { AiOutlineMessage } from "solid-icons/ai";
 import { FiTrash } from "solid-icons/fi";
 import { FaRegularImage, FaRegularHeart } from "solid-icons/fa";
 import Main from "./components/sidebar/Main";
+import TrendsSidebar from "./components/sidebar/Trends";
+import MainLayout from "./layouts/Main";
+
+
+const HelloComponent = () => {
+    return (
+        <div class="p-4 m-4 border-2 bg-yellow-800">Hello Component!</div>
+    )
+}
 
 const App: Component = () => {
   return (
-    <div class="w-full h-full bg-gray-900 text-gray-100">
+    <div class="w-full h-full bg-black-900 text-gray-100">
       <div class="flex h-full min-h-252">
         {/* SIDEBAR START */}
         <Main />
@@ -74,6 +83,19 @@ const App: Component = () => {
                   </div>
                   <div class="h-px bg-gray-700 my-1" />
                   {/* GLIDE POST START */}
+
+
+                  <MainLayout >
+                    <>
+                    <div>
+                        Children!
+                    </div>
+                    <HelloComponent></HelloComponent>
+                    </>
+                  </MainLayout>
+
+
+
                   <div class="flex-it p-4 border-b-1 border-solid border-gray-700">
                     <div class="flex-it flex-row">
                       <div class="flex-it mr-4">
@@ -100,6 +122,7 @@ const App: Component = () => {
                         <div class="flex-it flex-row flex-grow-0 items-center mb-2">
                           <div class="flex-it mr-3 mb-3 w-full">
                             My First Post
+                            
                           </div>
                         </div>
                         <div class="flex-it flex-row flex-grow text-gray-400">
@@ -120,7 +143,7 @@ const App: Component = () => {
                 </div>
                 <div class="flex-it md:w-92 w-0 mt-4">
                   {/* TRENDS SIDEBAR START */}
-                  
+                  <TrendsSidebar />
                   {/* TRENDS SIDEBAR END */}
                 </div>
               </div>

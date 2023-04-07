@@ -142,3 +142,24 @@ You can deploy the `dist` folder to any static host provider (netlify, surge, no
 
 **************************************************************************************************************
 
+
+ ## Commit 8 : Trends Dyanamic value from array of objects
+
+*1* Create an array of objects : trends
+
+*2* Iterate it with Solid-JS FOR loop which is as same as for each loop of react but without KEY
+
+
+**************************************************************************************************************
+
+
+
+ ## Commit 9 : Layouts | ParentComponent
+
+*1* Created Layouts folder and create Main.tsx layout file
+
+*2* ParenComponent added in Main.tsx to call the children props from the App / Parent file
+
+
+**************************************************************************************************************
+
