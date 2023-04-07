@@ -163,3 +163,14 @@ You can deploy the `dist` folder to any static host provider (netlify, surge, no
 
 **************************************************************************************************************
 
+
+
+
+ ## Commit 10 : REACTIVITY : Create Signal
+
+*1* Called CreateSignal to get and set the functions
+
+*2* CreateSignal in Solid Js is same as the useEffect in React, the difference is in React when setting it will re-render the whold function/component but in Solid it will execute only once and not re-render when the value changes only update the element with value needed
+
+
+**************************************************************************************************************

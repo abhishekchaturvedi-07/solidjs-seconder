@@ -8,7 +8,7 @@ import { FiMoreHorizontal } from "solid-icons/fi";
 
 
 
-const Main : Component= () => {
+const MainSidebar : Component= () => {
   return (
     <header class="lg:flex-grow flex-it items-end">
       <div class="xl:w-80 w-20 flex-it">
@@ -111,4 +111,4 @@ const Main : Component= () => {
   );
 };
 
-export default Main;
+export default MainSidebar;
